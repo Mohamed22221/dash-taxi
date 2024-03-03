@@ -1,0 +1,48 @@
+import icon1 from "../../../../assets/images/demos/shape.svg";
+import icon2 from "../../../../assets/images/demos/curency.svg";
+import icon3 from "../../../../assets/images/demos/office.svg";
+import icon4 from "../../../../assets/images/demos/discount.svg";
+import icon5 from "../../../../assets/images/demos/person.svg";
+
+
+
+
+
+const DataEstate = [
+  {
+    id: 1,
+    name: "اجمالي الربح الصافي",
+    count: 97.66,
+    percentage: 3,
+    img: icon1,
+  },
+  {
+    id: 2,
+    name: "رسوم العمليات",
+    count: 30,
+    percentage: 15,
+    img: icon2,
+  },
+  {
+    id: 3,
+    name: "المكاتب",
+    count: 25.66,
+    percentage: 22,
+    img: icon3,
+  },
+  {
+    id: 4,
+    name: "الاعلانات",
+    count: 87.66,
+    percentage: 22,
+    img: icon4,
+  },
+  {
+    id: 5,
+    name: "العملاء",
+    count: 57.66,
+    percentage: 40,
+    img: icon5,
+  },
+];
+export default DataEstate;

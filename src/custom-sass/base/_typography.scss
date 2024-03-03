@@ -1,0 +1,15 @@
+.color {
+  &__primary {
+    color: #915ecc;
+  }
+  &__gray {
+    color: #999;
+  }
+}
+.validation-error {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #ee6352;
+  display: block !important;
+}

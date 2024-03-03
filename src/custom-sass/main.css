@@ -1,0 +1,43 @@
+/*
+0 : 600px phone
+600px : 900px tablet portrait
+900px: 1200px tablet landscape
+1200px : 1800px desktop screen 
+1800+ px big desktop
+*/
+/*
+argu
+phone
+tab-port
+tab-land
+big-screen
+
+1em = 16px
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Gorditas:wght@400;700&family=Poppins:wght@300&family=Saira:wght@200;300;400;500&display=swap");
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Gorditas", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Saira", sans-serif !important;
+}
+
+.color__primary {
+  color: #915ecc;
+}
+.color__gray {
+  color: #999;
+}
+
+.validation-error {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #ee6352;
+  display: block !important;
+}
+
+.dropdown-menu {
+  z-index: 1005 !important;
+}/*# sourceMappingURL=main.css.map */
